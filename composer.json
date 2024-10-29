@@ -1,0 +1,42 @@
+{
+  "name": "marcbelletre/acf-rrule",
+  "description": "RRule field for Advanced Custom Fields",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "acf",
+    "rrule",
+    "recurring",
+    "date"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marc Bellêtre",
+      "email": "marc@pixelparfait.fr",
+      "homepage": "https://pixelparfait.fr"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/marcbelletre/acf-rrule/issues"
+  },
+  "require": {
+    "php": "^7.2|^8.0",
+    "simshaun/recurr": "^5.0",
+    "composer/installers": "^1.0|^2.0"
+  },
+  "require-dev": {
+    "phpcompatibility/php-compatibility": "*",
+    "phpcompatibility/phpcompatibility-wp": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+  },
+  "prefer-stable": true,
+  "config": {
+    "platform": {
+      "php": "7.2"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

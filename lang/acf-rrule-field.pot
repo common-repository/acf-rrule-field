@@ -1,0 +1,346 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Custom Fields: RRule\n"
+"POT-Creation-Date: 2024-02-14 11:28+0100\n"
+"PO-Revision-Date: 2020-06-15 10:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: acf-rrule.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: fields/class-acf-field-rrule.php:40
+msgid "RRule"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:117
+msgid "Date Display Format"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:118
+msgid "The date format displayed when editing a post"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:126 fields/class-acf-field-rrule.php:142
+#: fields/class-acf-field-rrule.php:173 fields/class-acf-field-rrule.php:192
+msgid "Custom:"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:132
+msgid "Date Return Format"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:133
+msgid "The date format returned via template functions"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:152
+msgid "Time Selector"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:153
+msgid "Allow time selection when creating the recurring rule"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:165
+msgid "Time Display Format"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:166
+msgid "The time format displayed when editing a post"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:184
+msgid "Time Return Format"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:185
+msgid "The time format returned via template functions"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:263
+msgctxt "Date Picker JS closeText"
+msgid "Done"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:264
+msgctxt "Date Picker JS currentText"
+msgid "Today"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:265
+msgctxt "Date Picker JS nextText"
+msgid "Next"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:266
+msgctxt "Date Picker JS prevText"
+msgid "Prev"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:267
+msgctxt "Date Picker JS weekHeader"
+msgid "Wk"
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:544
+msgid "The start date is required."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:551
+msgid "The end date is required."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:553
+msgid "The start date must be before the end date."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:558 fields/class-acf-field-rrule.php:563
+msgid "Please select at least one weekday."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:561
+msgid "Please select at least one monthday."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:566
+msgid "Please select at least one month."
+msgstr ""
+
+#: fields/class-acf-field-rrule.php:570
+msgid "The frequency must be greater than 1."
+msgstr ""
+
+#: include/render.php:6
+msgid "Current value:"
+msgstr ""
+
+#: include/render.php:29
+msgid "Start date"
+msgstr ""
+
+#: include/render.php:54
+msgid "Start time"
+msgstr ""
+
+#: include/render.php:82
+msgid "Daily"
+msgstr ""
+
+#: include/render.php:83
+msgid "Weekly"
+msgstr ""
+
+#: include/render.php:84
+msgid "Monthly"
+msgstr ""
+
+#: include/render.php:85
+msgid "Yearly"
+msgstr ""
+
+#: include/render.php:92
+msgid "Frequency"
+msgstr ""
+
+#: include/render.php:116
+msgctxt "RRule Interval"
+msgid "Every"
+msgstr ""
+
+#: include/render.php:119
+msgctxt "RRule Interval"
+msgid "day"
+msgstr ""
+
+#: include/render.php:120
+msgctxt "RRule Interval"
+msgid "week"
+msgstr ""
+
+#: include/render.php:121
+msgctxt "RRule Interval"
+msgid "month"
+msgstr ""
+
+#: include/render.php:122
+msgctxt "RRule Interval"
+msgid "year"
+msgstr ""
+
+#: include/render.php:133
+msgid "Monday"
+msgstr ""
+
+#: include/render.php:134
+msgid "Tuesday"
+msgstr ""
+
+#: include/render.php:135
+msgid "Wednesday"
+msgstr ""
+
+#: include/render.php:136
+msgid "Thursday"
+msgstr ""
+
+#: include/render.php:137
+msgid "Friday"
+msgstr ""
+
+#: include/render.php:138
+msgid "Saturday"
+msgstr ""
+
+#: include/render.php:139
+msgid "Sunday"
+msgstr ""
+
+#: include/render.php:145
+msgid "Week days"
+msgstr ""
+
+#: include/render.php:169
+msgid "Month days"
+msgstr ""
+
+#: include/render.php:197
+msgid "Weekdays"
+msgstr ""
+
+#: include/render.php:207
+msgid "First"
+msgstr ""
+
+#: include/render.php:208
+msgid "Second"
+msgstr ""
+
+#: include/render.php:209
+msgid "Third"
+msgstr ""
+
+#: include/render.php:210
+msgid "Fourth"
+msgstr ""
+
+#: include/render.php:211
+msgid "Fifth"
+msgstr ""
+
+#: include/render.php:212
+msgid "Last"
+msgstr ""
+
+#: include/render.php:257
+msgid "Month"
+msgstr ""
+
+#: include/render.php:263
+msgid "January"
+msgstr ""
+
+#: include/render.php:264
+msgid "February"
+msgstr ""
+
+#: include/render.php:265
+msgid "March"
+msgstr ""
+
+#: include/render.php:266
+msgid "April"
+msgstr ""
+
+#: include/render.php:267
+msgid "May"
+msgstr ""
+
+#: include/render.php:268
+msgid "June"
+msgstr ""
+
+#: include/render.php:269
+msgid "July"
+msgstr ""
+
+#: include/render.php:270
+msgid "August"
+msgstr ""
+
+#: include/render.php:271
+msgid "September"
+msgstr ""
+
+#: include/render.php:272
+msgid "October"
+msgstr ""
+
+#: include/render.php:273
+msgid "November"
+msgstr ""
+
+#: include/render.php:274
+msgid "December"
+msgstr ""
+
+#: include/render.php:298
+msgid "End date"
+msgstr ""
+
+#: include/render.php:308
+msgid "At a specific date"
+msgstr ""
+
+#: include/render.php:309
+msgid "After a number of occurrences"
+msgstr ""
+
+#: include/render.php:310
+msgid "Never"
+msgstr ""
+
+#: include/render.php:331
+msgid "After"
+msgstr ""
+
+#: include/render.php:334
+msgid "occurrence(s)"
+msgstr ""
+
+#: include/render.php:357
+msgid "Until"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ACF RRule Field"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/marcbelletre/acf-rrule"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create recurring rules with a single ACF field"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Marc Bellêtre"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://pixelparfait.fr"
+msgstr ""
